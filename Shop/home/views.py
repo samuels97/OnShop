@@ -1,5 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
 def home(request):
-    return "Hello"
+    return render(request, "templates/index.html",{})
